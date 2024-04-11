@@ -33,8 +33,6 @@ submit.addEventListener('click', function(event) {
       return response.json();
     })
     .then(data => {
-    
-      window.location.href = "https://learnify-home.onrender.com";
         window.alert('Register was successful! please activate your acc.');
       // Handle the response data here
     })
