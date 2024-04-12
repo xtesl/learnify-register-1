@@ -30,7 +30,7 @@ submit.addEventListener('click', function(event) {
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
-      return response.json();
+      
     })
     .then(data => {
         window.alert('Register was successful! please activate your acc.');
